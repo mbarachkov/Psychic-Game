@@ -17,7 +17,10 @@ document.onekeyup = function(event) {
 }
 if ((pGuess === cGuess[0]) && (gLeft > 0)) {
 	wins++;
+	lGuessed.length = 0;
+	cGuess.length = 0;
 	alert("HUZZAH!")
+
 	gLeft = 9;
 	var compGuess = alphabet[Math.floor(Math.random() * alphabet.length)];
 	cGuess.push(compGuess);
