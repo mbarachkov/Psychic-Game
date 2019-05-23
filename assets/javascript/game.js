@@ -11,7 +11,27 @@ window.onload = function() {
 	console.log(cGuess[0]);
 }
 document.onekeyup = function(event) {
-	var playerGuess= event.key;
-	lGuessed.push(playerGuess);
+	var pGuess = event.key;
+	lGuessed.push(pGuess);
 	console.log(cGuess);
+}
+if ((pGuess === cGuess[0]) && (gLeft > 0)) {
+	wins++;
+	alert("HUZZAH!")
+	gLeft = 9;
+	var compGuess = alphabet[Math.floor(Math.random() * alphabet.length)];
+	cGuess.push(compGuess);
+	console.log(cGuess[0]);
+}
+else if ((pGuess !== cGuess[0]) && (gLeft > 0)) {
+	gLeft = gLeft-1;
+}
+else {
+	losses++;
+	gLeft = 9;
+	lGuessed.length = 0;
+	cGuess.length = 0;
+	var compGuess = alphabet[Math.floor(Math.random() * alphabet.length)];
+	cGuess.push(compGuess);
+	console.log(cGuess[0]);
 }
