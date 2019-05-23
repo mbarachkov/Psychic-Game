@@ -43,7 +43,7 @@ document.onkeyup = function(event) {
 
 	document.querySelector("#wins").textContent = wins;
 	document.querySelector("#losses").textContent = losses;
-	document.querySelector("#guessesleft").textContent = lGuessed;
+	document.querySelector("#guessesleft").textContent = gLeft;
 	document.querySelector("#gSoFar").textContent = pGuess;
 	
 }
