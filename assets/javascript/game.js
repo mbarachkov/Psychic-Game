@@ -10,4 +10,8 @@ window.onload = function() {
 	cGuess.push(compGuess);
 	console.log(cGuess[0]);
 }
-
+document.onekeyup = function(event) {
+	var playerGuess= event.key;
+	lGuessed.push(playerGuess);
+	console.log(cGuess);
+}
