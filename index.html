@@ -13,22 +13,34 @@
 
 <body>
   <script src="assets/javascript/game.js"></script>
-  <h1>The Psychic Game!</h1>
-  <h3>guess what letter im thinking of.</h3>
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">The Psychic Game</h1>
+      <p class="lead">guess what letter I am thinking of</p>
+    </div>
+  </div>
+
+
+  <!-- <h1>The Psychic Game!</h1> -->
+  <!-- <h3>guess what letter im thinking of.</h3> -->
 
   <div id="container">
-    <ul class="list-group">
-      <li class="list-group-item">
-        <h3>Wins: <span id="wins"></span></h3>
-      </li>
-      <li class="list-group-item">
-        <h3>Losses: <span id="losses"></span></h3>
-      </li>
-      <li class="list-group-item">
-        <h3>Guesses left: <span id="guessesleft"></span></h3>
-      </li>
-      <li class="list-group-item">
-        <h3>Guesses so far: <span id="gSoFar"></span></h3>
+    <ul class="list-group list-group-flush">
+
+          <li class="list-group-item">
+            <h3>Wins: <span id="wins"></span></h3>
+          </li>
+
+          <li class="list-group-item">
+            <h3>Losses: <span id="losses"></span></h3>
+          </li>
+
+          <li class="list-group-item">
+            <h3>Guesses left: <span id="guessesleft"></span></h3>
+          </li>
+
+          <li class="list-group-item">
+            <h3>Guesses so far: <span id="gSoFar"></span></h3>
       </li>
     </ul>
   </div>

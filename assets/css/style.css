@@ -1,11 +1,9 @@
 body {
     background-color: grey;
-    width: 980px;
-    margin: 0 auto;
+
 
 }
 #container {
-    margin: 0 auto;
-    width: 100%;
-    color: red;
+    width: 40%;
+
 }
