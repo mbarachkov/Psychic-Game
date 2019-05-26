@@ -1,5 +1,6 @@
 body {
-
+    background: black;
+    color: white;
 
 
 }
@@ -9,13 +10,38 @@ body {
     opacity: .8;
 
 }
-.jumbotron {
+.jumbotron.jumbotron-fluid {
     text-align: center;
+    background-color:black;
+    color: rgb(255, 253, 227);
+    opacity: .9;
 }
-.col-md-2 {
-    background: grey;
-    opacity: .5;
+#input {
+    border: solid black;
+    opacity: .8;
 }
-#resetButton {
-    margin: 0 auto;
+#input.Row {
+    background-color: black;
+
+}
+.display-4 {
+    font-family: 'Germania One', cursive;
+}
+.lead {
+    font-family:Impact, Arial, Helvetica, sans-serif;
+}
+#sides {
+    background-color: black;
+    opacity: .9;
+}
+#gsofar {
+    border-left: solid 2px;
+}
+.footer {
+    padding: 20px;
+    color: rgb(255,253,227);
+    background-color: black;
+    text-align: center;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    opacity: .9;
 }

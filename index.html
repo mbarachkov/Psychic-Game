@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Germania+One|Qwigley&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <title>Document</title>
@@ -23,61 +24,49 @@
   <div class="container">
     <div class="row">
       <div class="container"></div>
-      <div class="col-md-2">
-        <div id="container">
-        </div>
-      </div>
+      <div class="col-md-2" id="sides"></div>
       <div class="col-md-8">
         <ul class="list-group list-group-flush">
-          <div class="row">
-            <div class="col-md-6">
+          <div class="row" id="input">
+            <div class="col-md-6" id="values">
+
               <li class="list-group-item">
                 <h3>Wins: <span id="wins"></span></h3>
               </li>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-md-6">
+            
               <li class="list-group-item">
                 <h3>Losses: <span id="losses"></span></h3>
               </li>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-md-6">
+    
               <li class="list-group-item">
                 <h3>Guesses left: <span id="guessesleft"></span></h3>
               </li>
-            </div>
-          </div>
 
-          <div class="row">
-            <div class="col-md-6">
+            </div>
+            <div class="col-md-6" id="gsofar">
               <li class="list-group-item">
                 <h3>Guesses so far: <span id="gSoFar"></span></h3>
               </li>
             </div>
-          </div>
+        </ul>
       </div>
-      <div class="col-md-2">
-        <div class="container"></div>
-      </div>
-      </ul>
-    
+      <div class="col-md-2" id="sides"></div>
     </div>
+  </div>
+  
+  <div class="row" id="rButton">
+    <div class="col-md-5"></div>
+    <div class="col-md-3" id="resetButton">
+      <br>
+      <!-- <input type="button" onclick="resetButton()" value="Reset" /> -->
     </div>
-<div class="row">
-      <div class="col-md-5.5"></div>
-      <div class="col-md-6.5" id="resetButton">
-          <br>
-          <button id="rButton">Reset</button>
-      </div>
+    <div class="col-md-4"></div>
 
   </div>
   </div>
   </div>
+
+  <footer class="footer">powered by javascript</footer>
 </body>
 
 </html>

@@ -9,10 +9,12 @@ window.onload = function () {
 	cGuess.push(compGuess);
 	console.log(cGuess[0]);
 }
-document.getElementById("rButton").onclick = resetButton;
-
 function resetButton() {
-  document.getElementById("rButton") = ();
+	wins = 0;
+	losses = 0;
+	gLeft = 9;
+	var compGuess = alphabet[Math.floor(Math.random() * alphabet.length)];
+	cGuess.push(compGuess);
 }
 document.onkeyup = function(event) {
 	var pGuess = event.key;
