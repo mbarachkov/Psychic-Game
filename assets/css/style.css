@@ -35,7 +35,7 @@ body {
     opacity: .9;
 }
 #gsofar {
-    border-left: solid 2px;
+    /* border-left: solid 2px; */
 }
 .footer {
     padding: 20px;
@@ -45,3 +45,7 @@ body {
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
     opacity: .9;
 }
+@media screen and (min-width: 767px) {
+#gsofar {
+    /* margin-left: solid 0px; */
+}}
