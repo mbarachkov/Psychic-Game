@@ -1,9 +1,21 @@
 body {
-    background-color: grey;
+
 
 
 }
 #container {
-    width: 40%;
+    width: 100%;
+    background-color: grey;
+    opacity: .8;
 
+}
+.jumbotron {
+    text-align: center;
+}
+.col-md-2 {
+    background: grey;
+    opacity: .5;
+}
+#resetButton {
+    margin: 0 auto;
 }

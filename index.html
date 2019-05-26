@@ -12,6 +12,7 @@
 </head>
 
 <body>
+
   <script src="assets/javascript/game.js"></script>
   <div class="jumbotron jumbotron-fluid">
     <div class="container">
@@ -19,57 +20,64 @@
       <p class="lead">guess what letter I am thinking of</p>
     </div>
   </div>
-
-
-  <!-- <h1>The Psychic Game!</h1> -->
-  <!-- <h3>guess what letter im thinking of.</h3> -->
-
-  <div id="container">
-    <ul class="list-group list-group-flush">
-      <div class="row">
-        <div class="col-md-6">
-        </div>  
-        <div class="col-md-6">
-            <li class="list-group-item">
-              <h3>Wins: <span id="wins"></span></h3>
-            </li>
+  <div class="container">
+    <div class="row">
+      <div class="container"></div>
+      <div class="col-md-2">
+        <div id="container">
         </div>
       </div>
+      <div class="col-md-8">
+        <ul class="list-group list-group-flush">
+          <div class="row">
+            <div class="col-md-6">
+              <li class="list-group-item">
+                <h3>Wins: <span id="wins"></span></h3>
+              </li>
+            </div>
+          </div>
 
-      <div class="row">
-        <div class="col-md-6">
-        </div>
-        <div class= "col-md-6">
-            <li class="list-group-item">
-              <h3>Losses: <span id="losses"></span></h3>
-            </li>
-        </div>
+          <div class="row">
+            <div class="col-md-6">
+              <li class="list-group-item">
+                <h3>Losses: <span id="losses"></span></h3>
+              </li>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6">
+              <li class="list-group-item">
+                <h3>Guesses left: <span id="guessesleft"></span></h3>
+              </li>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6">
+              <li class="list-group-item">
+                <h3>Guesses so far: <span id="gSoFar"></span></h3>
+              </li>
+            </div>
+          </div>
+      </div>
+      <div class="col-md-2">
+        <div class="container"></div>
+      </div>
+      </ul>
+    
+    </div>
+    </div>
+<div class="row">
+      <div class="col-md-5.5"></div>
+      <div class="col-md-6.5" id="resetButton">
+          <br>
+          <button onclick="myFunction()">Reset</button>
       </div>
 
-      <div class="row">
-        <div class="col-md-6">
-        </div>  
-        <div class="col-md-6">
-            <li class="list-group-item">
-              <h3>Guesses left: <span id="guessesleft"></span></h3>
-            </li>
-        </div>        
-      </div>
-
-      <div class="row">
-        <div class="col-md-6">
-        </div>  
-        <div class="col-md-6">
-            <li class="list-group-item">
-              <h3>Guesses so far: <span id="gSoFar"></span></h3>
-            </li>        
-        </div>
-      </div>
-
-    </ul>
   </div>
-
-
+  </div>
+  </div>
 </body>
 
 </html>
